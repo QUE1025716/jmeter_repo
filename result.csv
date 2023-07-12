@@ -1,7 +1,2 @@
 id,isActive,firstName,lastName,roleNames/0,associatedShipyards/0,associatedShipyards/1,c_email,c_password
 8473996272,true,Arun,A,OPERATOR,meaa_demo,meaa_demo_test,arun@meaa.com,Test123!
-84739962701,true,Krishnadas,R,OPERATOR,meaa_demo,meaa_demo_test,krishna@meaa.com,Test123!
-8473996273,true,Balu,B,OPERATOR,meaa_demo,meaa_demo_test,balu@meaa.com,Test123!
-8473996274,true,Daniel,D,OPERATOR,meaa_demo,meaa_demo_test,daniel@meaa.com,Test123!
-8473996275,true,Govind,G,OPERATOR,meaa_demo,meaa_demo_test,govind@meaa.com,Test123!
-8473996270,true,jeevanantham,Nagarathinam,OPERATOR,meaa_demo,meaa_demo_test,jeeva@meaa.com,Test123!
