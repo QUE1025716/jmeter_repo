@@ -16,6 +16,7 @@
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
+        <stringProp name="ThreadGroup.on_sample_error">stoptest</stringProp>
       </ThreadGroup>
       <hashTree>
         <OnceOnlyController guiclass="OnceOnlyControllerGui" testclass="OnceOnlyController" testname="Once Only Controller"/>
@@ -26,8 +27,8 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <stringProp name="Argument.value">{&#xd;
-    &quot;email&quot;: &quot;${email}&quot;,&#xd;
-    &quot;password&quot;: &quot;${password}&quot;&#xd;
+    &quot;email&quot;: &quot;eve.holt@reqres.in&quot;,&#xd;
+    &quot;password&quot;: &quot;cityslicka&quot;&#xd;
 }</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
@@ -49,18 +50,6 @@
                 </elementProp>
               </collectionProp>
             </HeaderManager>
-            <hashTree/>
-            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config">
-              <stringProp name="delimiter">,</stringProp>
-              <stringProp name="fileEncoding"></stringProp>
-              <stringProp name="filename">users_dummy.csv</stringProp>
-              <boolProp name="ignoreFirstLine">true</boolProp>
-              <boolProp name="quotedData">false</boolProp>
-              <boolProp name="recycle">true</boolProp>
-              <stringProp name="shareMode">shareMode.all</stringProp>
-              <boolProp name="stopThread">false</boolProp>
-              <stringProp name="variableNames">email,password</stringProp>
-            </CSVDataSet>
             <hashTree/>
           </hashTree>
         </hashTree>
